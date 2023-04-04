@@ -1,0 +1,15 @@
+@import '_normalize.scss';
+
+
+body {
+  @apply h-full overflow-x-hidden
+}
+
+#__next {
+  @apply h-full
+}
+
+html {
+  @apply h-full
+}
+
