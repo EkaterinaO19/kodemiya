@@ -1,0 +1,27 @@
+.navigation {
+    width: 100%;
+    position: fixed;
+    z-index: 40;
+    height: 100px;
+    //background-color: #6db0ff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.toggled{
+    transition: background-color 0.5s ease;
+    background-color: #6db0ff;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+}
+
+.phone {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
