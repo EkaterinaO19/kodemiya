@@ -1,0 +1,31 @@
+.container {
+  height: fit-content;
+  background-color: white;
+  border-radius: 12px;
+  padding: 0.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+}
+.text {
+  font-weight:bolder;
+}
+
+.message_sticker {
+  width: 30px; /* specify the desired width of the container */
+  height: 30px; /* specify the desired height of the container */
+  position: relative;
+}
+
+.message_sticker_img {
+  width: 100%; /* set the width of the image to 100% of the parent container */
+  height: 100%; /* set the height of the image to 100% of the parent container */
+  object-fit: cover; /* use the cover value for object-fit property to ensure the image fills the container while maintaining its aspect ratio */
+  position: absolute; /* set the position property to absolute to position the image relative to its parent container */
+  top: 0; /* position the image at the top of the container */
+  left: 0; /* position the image at the left of the container */
+}
+
+.message_avatar {
+  height: 30px;
+  width: 30px;
+}

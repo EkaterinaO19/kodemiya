@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.text{
+  width: 500px
+}
+.right {
+  display: flex;
+}
+.image{
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

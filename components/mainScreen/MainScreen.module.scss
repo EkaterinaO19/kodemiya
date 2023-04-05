@@ -1,0 +1,56 @@
+.slider {
+  display: flex;
+  padding-top: 3rem;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  width: 100%;
+  align-items: center
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title{
+  font-size: 65px;
+}
+
+.sparkle{
+  position: absolute;
+  animation: up-down 2s ease-in-out infinite;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.half{
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
