@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 1rem;
+}
+.left{
+  display: flex;
+  margin: 1rem;
+  position: relative;
+}
+.right {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap
+
+}
+.image{
+  display: flex;
+  width: fit-content;
+  border-radius: 10px;
+  object-fit: cover;
+}
