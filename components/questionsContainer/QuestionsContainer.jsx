@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './QuestionsContainer.module.scss'
 import Button from "@/components/button/Button";
 import Image from "next/image";
+import Sticker from "@/components/sticker/Sticker";
 
 const QuestionsContainer = () => {
     return (
@@ -19,7 +20,11 @@ const QuestionsContainer = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, qui.</p>
                 <Button onClick={console.log('clicked')} size={'small'}>lorem</Button>
             </div>
-
+            <Sticker text={'Lorem ipsum dolor sit amet sit amet.'}
+                     top={'70%'}
+                     right={'7%'}
+                     sticker={'/image/victory.png'}
+            />
         </div>
     );
 };

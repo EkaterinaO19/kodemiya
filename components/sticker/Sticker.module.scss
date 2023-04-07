@@ -2,12 +2,13 @@
   height: fit-content;
   background-color: white;
   border-radius: 12px;
-  padding: 0.5rem;
+  padding: 0.3rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: flex;
 }
 .text {
   font-weight:bolder;
+  font-size: 14px;
 }
 
 .message_sticker {
@@ -29,3 +30,13 @@
   height: 30px;
   width: 30px;
 }
+
+@media (max-width: 480px) {
+  .container{
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .container{
+    display: none;
+  }}

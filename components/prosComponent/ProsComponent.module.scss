@@ -9,6 +9,7 @@
   display: flex;
   gap: 3rem;
   flex-wrap: wrap;
+  justify-content: center
 }
 .left {
   display: flex;
@@ -24,6 +25,7 @@
 .image{
   border-radius: 10px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  object-fit: cover;
 }
 
 .title {
@@ -46,3 +48,75 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (max-width: 480px) {
+  .wrapper {
+    justify-content: center;
+    gap: 1rem;
+  }
+  .nature{
+    display: none;
+  }
+  .container{
+    gap: 1rem;
+  }
+  .title{
+    font-size: 25px;
+    margin: 1rem;
+  }
+  .image{
+   height: 200px;
+    width: auto;
+  }
+}
+
+/* Styles for mobile devices (min-width: 481px) and (max-width: 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .wrapper {
+    justify-content: center;
+    gap: 1rem;
+  }
+  .nature{
+    display: none;
+  }
+  .container{
+    gap: 1rem;
+  }
+  .title{
+    font-size: 25px;
+    margin: 1rem;
+  }
+  .image{
+    height: 200px;
+    width: auto;
+  }
+}
+
+/* Styles for tablets (min-width: 768px) and (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    justify-content: center;
+    gap: 1rem;
+  }
+  .nature{
+    display: none;
+  }
+  .container{
+    gap: 1rem;
+  }
+  .title{
+    font-size: 25px;
+    margin: 1rem;
+  }
+  .image{
+    height: 200px;
+    width: auto;
+  }
+}
+
+/* Styles for small laptops and desktops (min-width: 1025px) and (max-width: 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for larger screens */
+}
+

@@ -9,3 +9,24 @@
 .title{
   margin: 3rem;
 }
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    margin: 1rem;
+  }
+  .title{
+    margin: 1rem;
+  }
+}
+
+/* Styles for mobile devices (min-width: 481px) and (max-width: 767px) */
+@media (min-width: 481px) and (max-width: 1024px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .title{
+    margin: 1rem;
+  }
+}

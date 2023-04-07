@@ -1,14 +1,13 @@
 import React from 'react';
 import styles from './Footer.module.scss'
 import NavbarItem from "@/components/navbarItem/NavbarItem";
-import {AiFillFacebook} from "react-icons/all";
+import {BsTelegram, BsWhatsapp} from "react-icons/bs";
+import {SlSocialVkontakte} from "react-icons/sl";
+
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <img />
-            <div className={styles.logo}>
-                <h1>Coddemic</h1>
-            </div>
+                <h1 className={styles.title}>Coddemic</h1>
             <div className={styles.links}>
                 <NavbarItem label={'Home'} />
                 <NavbarItem label={'Home'} />
@@ -16,9 +15,13 @@ const Footer = () => {
                 <NavbarItem label={'Home'} />
                 <NavbarItem label={'Home'} />
             </div>
-            <div className={styles.contacts}>
+            <div>
                 <p>Lorem ipsum dolor.</p>
-                <AiFillFacebook />
+                <div className={styles.contacts}>
+                    <BsTelegram />
+                    <BsWhatsapp />
+                    <SlSocialVkontakte />
+                </div>
             </div>
         </footer>
     );

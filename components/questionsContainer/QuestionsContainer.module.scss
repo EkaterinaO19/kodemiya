@@ -4,6 +4,7 @@
   width: 100%;
   height: 20vh;
   margin: 5rem;
+  position: relative;
 };
 
 .cards{
@@ -40,3 +41,59 @@
   right: 10rem;
   top: 70%;
 }
+
+@media (max-width: 480px) {
+  .container {
+    margin: 1rem;
+    align-items: center
+  }
+  .boy{
+   display: none;
+  }
+  .girl{
+    position: relative;
+    height: 150px;
+    width: 150px;
+  }
+}
+
+
+/* Styles for mobile devices (min-width: 481px) and (max-width: 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    margin: 1rem;
+    align-items: center
+  }
+  .boy{
+    display: none;
+  }
+  .girl{
+    position: relative;
+    height: 150px;
+    width: 150px;
+  }}
+
+/* Styles for tablets (min-width: 768px) and (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    margin: 1rem;
+    align-items: center
+  }
+  .boy{
+    display: none;
+    }
+  .girl{
+    position: relative;
+    height: 200px;
+    width: 300px;
+  }
+}
+
+/* Styles for small laptops and desktops (min-width: 1025px) and (max-width: 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for larger screens */
+}
+
+
+
+

@@ -54,3 +54,29 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 480px) {
+  .container {
+    margin: 1rem;
+  }
+
+  .title{
+    font-size: 28px;
+  }
+}
+
+/* Styles for mobile devices (min-width: 481px) and (max-width: 767px) */
+@media (min-width: 481px) and (max-width: 767px) {
+  .title{
+    font-size: 28px;
+  }}
+
+/* Styles for tablets (min-width: 768px) and (max-width: 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for medium screens */
+}
+
+/* Styles for small laptops and desktops (min-width: 1025px) and (max-width: 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* Styles for larger screens */
+}

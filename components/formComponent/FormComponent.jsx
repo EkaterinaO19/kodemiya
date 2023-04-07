@@ -24,7 +24,7 @@ const FormComponent = () => {
 
     return (
         <div className={styles.container}>
-                <h1>Lorem ipsum dolor.</h1>
+                <h1 className={styles.title}>Lorem ipsum dolor.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quam?</p>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.inputs}>

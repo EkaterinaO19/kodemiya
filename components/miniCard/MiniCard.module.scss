@@ -3,3 +3,14 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media (max-width: 480px) {
+  .container {
+    width: fit-content;
+    align-items: center;
+  }
+  .emoji {
+    height: 20px;
+    width: auto;
+  }
+}

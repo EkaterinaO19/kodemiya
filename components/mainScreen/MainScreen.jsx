@@ -1,18 +1,17 @@
-import React from 'react';
-import styles from '@/components/mainScreen/MainScreen.module.scss'
-import Button from "@/components/button/Button";
-import Sticker from "@/components/sticker/Sticker";
+import React, { lazy, Suspense } from 'react';
+import styles from './MainScreen.module.scss'; // use relative import
+import Button from '@/components/button/Button'; // use alias path
+import Sticker from '@/components/sticker/Sticker'; // use alias path
 import Image from 'next/image';
-import img from '../../public/image/heart.png'
-import Slider from "@/components/slider/SliderComponent";
 
+const Slider = lazy(() => import('@/components/slider/SliderComponent'));
 const MainScreen = () => {
     return (
         <>
             <div className={styles.container}>
                 <Sticker text={'Lorem ipsum dolor sit amet.'}
                          sticker={'/image/heart.png'}
-                         top={'20%'}
+                         top={'23%'}
                          left={'3%'}
                 />
                 <div className={styles.center}>
@@ -26,24 +25,30 @@ const MainScreen = () => {
                          right={'3%'}
                 />
                 <Sticker text={'Lorem ipsum dolor sit amet sit amet.'}
-                         top={'18%'}
-                         right={'4%'}
+                         top={'25%'}
+                         right={'1%'}
                 />
                 <Image
                     src="/shapes/sparkle.svg"
-                    height={50} width={50}
-                    alt={'Figure'}
+                    height={50}
+                    width={50}
+                    alt="Figure"
+                    layout="fixed" // specify layout prop for optimal rendering
                     className={styles.sparkle}
                 />
                 <Image
                     src="/shapes/half.svg"
-                    height={50} width={50}
-                    alt={'Figure'}
+                    height={50}
+                    width={50}
+                    alt="Figure"
+                    layout="fixed" // specify layout prop for optimal rendering
                     className={styles.half}
                 />
             </div>
             <div className={styles.slider}>
-                <Slider/>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Slider /> {/* lazy load the Slider component */}
+                </Suspense>
             </div>
         </>
     );

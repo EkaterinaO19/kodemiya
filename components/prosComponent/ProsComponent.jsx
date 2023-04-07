@@ -36,7 +36,7 @@ const ProsComponent = () => {
             </div>
             <Sticker text={'Lorem ipsum dolor sit amet.'}
                      sticker={'/image/nerd.png'}
-                     top={'80%'}
+                     top={'100%'}
                      right={'1%'}
             />
             <Image src={'/shapes/nature.svg'}

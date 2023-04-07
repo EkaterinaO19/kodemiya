@@ -3,7 +3,6 @@ import styles from './Feedback.module.scss';
 import "swiper/css";
 import "swiper/css/pagination";
 import {Swiper, SwiperSlide} from "swiper/react";
-
 import {Pagination} from "swiper";
 import FeedbackCard from "@/feedbackCard/FeedbackCard";
 
@@ -21,6 +20,7 @@ const Feedback = () => {
                     clickable: true,
                 }}
                 modules={[Pagination]}
+                spaceBetween={20}
                 className={styles.swiper}
             >
                 <SwiperSlide>

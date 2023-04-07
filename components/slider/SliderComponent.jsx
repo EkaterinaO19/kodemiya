@@ -7,12 +7,10 @@ import {Swiper, SwiperSlide} from "swiper/react";
 import { FreeMode, Pagination, Lazy} from "swiper";
 
 const SliderComponent = () => {
-
-
     return (
             <Swiper
                 slidesPerView={2.7}
-                spaceBetween={5}
+                spaceBetween={200}
                 modules={[Pagination]}
             >
                 <SwiperSlide>
@@ -30,7 +28,7 @@ const SliderComponent = () => {
                         loop={true}
                         muted={true}
                         autoPlay={true}
-                        className={styles.slide}
+                        className={styles.video}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
@@ -53,9 +51,3 @@ const SliderComponent = () => {
 
 export default SliderComponent;
 
-// <div className={styles.card}>
-//     <Image src={'/video/coding.jpg'}
-//            alt={'Sticker'}
-//            width={700} height={500}
-//     />
-// </div>
