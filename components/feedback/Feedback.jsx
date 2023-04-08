@@ -8,11 +8,7 @@ import FeedbackCard from "@/feedbackCard/FeedbackCard";
 
 const Feedback = () => {
     return (
-        <div className={styles.container}>
-            {/*<div className={styles.title}>*/}
-            {/*    <h1 >Lorem</h1>*/}
-            {/*</div>*/}
-
+        <section className={styles.container} id={'feedback'}>
             <Swiper
                 slidesPerView={2}
                 pagination={{
@@ -25,30 +21,30 @@ const Feedback = () => {
             >
                 <SwiperSlide>
                     <FeedbackCard image={'/persons/woman.jpg'}
-                                  title={'Lorem ipsum.'}
-                                  text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, possimus.'}
+                                  title={'Елена, бабушка 8-летней ученицы'}
+                                  text={'"Преподаватели всегда готовы помочь и ответить на вопросы, и моя внучка оценивает возможность самостоятельно изучать программирование в удобное для нее время"'}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FeedbackCard image={'/persons/woman.jpg'}
-                                  title={'Lorem ipsum.'}
-                                  text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, possimus.'}
+                    <FeedbackCard image={'/persons/girl-portrait.jpg'}
+                                  title={'Анна, мама 10-летнего ученика'}
+                                  text={'"Я так благодарна "Кодемии" за то, что они помогли нашему ребенку развить его навыки программирования. Мой сынуля с нетерпением ждет каждого урока!"'}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FeedbackCard image={'/persons/woman.jpg'}
-                                  title={'Lorem ipsum.'}
-                                  text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, possimus.'}
+                    <FeedbackCard image={'/persons/portrait.jpg'}
+                                  title={'Олеся, мама 12-летнего ученика.'}
+                                  text={'Я была поражена тем, насколько быстро мой сын развил навыки программирования в "Кодемии". Он полюбил Python и научился создавать свои собственные программы."'}
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <FeedbackCard image={'/persons/woman.jpg'}
-                                  title={'Lorem ipsum.'}
-                                  text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, possimus.'}
+                    <FeedbackCard image={'/persons/dad.jpg'}
+                                  title={'Михаил, папа 10-летнего ученика'}
+                                  text={'"Мы выбрали "Кодемию" для нашего ребенка, и это было лучшее решение! Наш сын полностью погрузился в мир программирования, освоил Scratch и создал свою первую игру. "'}
                     />
                 </SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 };
 

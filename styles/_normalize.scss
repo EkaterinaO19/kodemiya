@@ -347,3 +347,15 @@ template {
 [hidden] {
   display: none;
 }
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Add any additional styles as needed */
+/* For example, to remove underline and change color */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}

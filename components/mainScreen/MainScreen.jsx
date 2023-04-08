@@ -8,23 +8,23 @@ const Slider = lazy(() => import('@/components/slider/SliderComponent'));
 const MainScreen = () => {
     return (
         <>
-            <div className={styles.container}>
-                <Sticker text={'Lorem ipsum dolor sit amet.'}
+            <section className={styles.container}>
+                <Sticker text={'Люблю узнавать новое'}
                          sticker={'/image/heart.png'}
                          top={'23%'}
                          left={'3%'}
                 />
                 <div className={styles.center}>
-                    <h1 className={styles.title}>Lorem ipsum dolor sit amet.</h1>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-                    <Button size={'medium'}>lorem</Button>
+                    <h1 className={styles.title}>Программирование для детей от 7 лет.</h1>
+                    <span>Дети - создатели будущего! Развиваем их потенциал через программирование и веб-разработку в "Кодемии"!</span>
+                    <Button size={'medium'}>Записаться</Button>
                 </div>
-                <Sticker text={'Lorem ipsum dolor sit amet.'}
+                <Sticker text={'Хочу создавать свои игры'}
                          sticker={'/image/nerd.png'}
                          top={'10%'}
                          right={'3%'}
                 />
-                <Sticker text={'Lorem ipsum dolor sit amet sit amet.'}
+                <Sticker text={'Обожаю комньютеры!'}
                          top={'25%'}
                          right={'1%'}
                 />
@@ -44,7 +44,7 @@ const MainScreen = () => {
                     layout="fixed" // specify layout prop for optimal rendering
                     className={styles.half}
                 />
-            </div>
+            </section>
             <div className={styles.slider}>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Slider /> {/* lazy load the Slider component */}

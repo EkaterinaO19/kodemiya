@@ -23,20 +23,20 @@ const FormComponent = () => {
     }
 
     return (
-        <div className={styles.container}>
-                <h1 className={styles.title}>Lorem ipsum dolor.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quam?</p>
+        <section className={styles.container}>
+                <h1 className={styles.title}>Бесплатный пробный урок</h1>
+                <p>Мы приглашаем вас на бесплатный пробный урок, чтобы вы могли убедиться во всех преимуществах нашей школы программирования.</p>
                 <form onSubmit={handleSubmit}>
                     <div className={styles.inputs}>
                         <label>
-                            <input type={'text'} placeholder={'Lorem'}
+                            <input type={'text'} placeholder={'Ваше Имя'}
                                    className={styles.input}
                                    value={name}
                                    onChange={(e) => setName(e.target.value)}
                             />
                         </label>
                         <label>
-                            <input type={'phone'} placeholder={'Lorem'}
+                            <input type={'phone'} placeholder={'Номер Телефона'}
                                    className={styles.input}
                                    value={phone}
                                    onChange={(e) => setPhone(e.target.value)}
@@ -51,9 +51,9 @@ const FormComponent = () => {
                                 onChange={(e) => setRememberMe(e.target.checked)}
 
                             />
-                            <span> Remember Me Remember Me</span>
+                            <span> Соглашаюсь с политикой конфиденциальности и даю согласие на обработку персональных данных</span>
                         </label>
-                        <Button size={'small'} type={'submit'}>lorem</Button>
+                        <Button size={'small'} type={'submit'}>Отправить</Button>
                     </div>
                 </form>
             <Image src={'/video/cottonbro.jpg'}
@@ -74,7 +74,7 @@ const FormComponent = () => {
                    height={60}
                    className={styles.moon}
             />
-        </div>
+        </section>
     );
 };
 

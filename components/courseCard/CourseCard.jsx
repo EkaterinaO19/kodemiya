@@ -11,7 +11,7 @@ const CourseCard = ({main, text, price, image}) => {
                 <p className={styles.text}>
                     {text}
                 </p>
-                <Button size={'small'}>lorem</Button>
+                <Button size={'small'}>Записаться</Button>
             </div>
             <div className={styles.right}>
                 <Image src={image}

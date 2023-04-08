@@ -6,21 +6,24 @@ import {SlSocialVkontakte} from "react-icons/sl";
 
 const Footer = () => {
     return (
-        <footer className={styles.footer}>
-                <h1 className={styles.title}>Coddemic</h1>
+        <footer className={styles.footer} id={'contacts'}>
+                <h1 className={styles.title}>Кодемия.</h1>
             <div className={styles.links}>
-                <NavbarItem label={'Home'} />
-                <NavbarItem label={'Home'} />
-                <NavbarItem label={'Home'} />
-                <NavbarItem label={'Home'} />
-                <NavbarItem label={'Home'} />
+                <NavbarItem link={'#courses'} label={'Курсы'} active />
+                <NavbarItem link={'#advantages'} label={'Преимущества'}  />
+                <NavbarItem  link={'#feedback'}  label={'Отзывы'}  />
+                <NavbarItem  link={'#contacts'}  label={'Контакты'}  />
             </div>
             <div>
-                <p>Lorem ipsum dolor.</p>
+                <p>Подпишитесь на нас:</p>
                 <div className={styles.contacts}>
-                    <BsTelegram />
-                    <BsWhatsapp />
-                    <SlSocialVkontakte />
+                    <a href="https://t.me/coddemik" target="_blank">
+                    <BsTelegram className={styles.contact}/>
+                    </a>
+                    <a href="https://wa.me/79241257278" target="_blank">
+                    <BsWhatsapp className={styles.contact}/>
+                    </a>
+                    <SlSocialVkontakte className={styles.contact}/>
                 </div>
             </div>
         </footer>

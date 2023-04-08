@@ -14,7 +14,7 @@ const SliderComponent = () => {
                 modules={[Pagination]}
             >
                 <SwiperSlide>
-                    <Image src={'/video/boy-lesson.jpg'}
+                    <Image src={'/video/girl-side.jpg'}
                            alt={'Sticker'}
                            width={700} height={500}
                            className={styles.slide}
@@ -39,7 +39,7 @@ const SliderComponent = () => {
                     />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Image src={'/video/girl-computer.jpg'}
+                    <Image src={'/video/boy-side.jpg'}
                            alt={'Sticker'}
                            width={700} height={500}
                            className={styles.slide}

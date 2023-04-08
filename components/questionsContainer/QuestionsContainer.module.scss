@@ -44,6 +44,7 @@
 
 @media (max-width: 480px) {
   .container {
+    height: 100%;
     margin: 1rem;
     align-items: center
   }
@@ -61,8 +62,10 @@
 /* Styles for mobile devices (min-width: 481px) and (max-width: 767px) */
 @media (min-width: 481px) and (max-width: 767px) {
   .container {
-    margin: 1rem;
-    align-items: center
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    gap: 0;
   }
   .boy{
     display: none;
@@ -76,8 +79,10 @@
 /* Styles for tablets (min-width: 768px) and (max-width: 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
-    margin: 1rem;
-    align-items: center
+    height: 100%;
+    margin: 0;
+    align-items: center;
+    gap: 0;
   }
   .boy{
     display: none;

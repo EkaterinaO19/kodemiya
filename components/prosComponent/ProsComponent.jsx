@@ -6,8 +6,8 @@ import Sticker from "@/components/sticker/Sticker";
 
 const ProsComponent = () => {
     return (
-        <div className={styles.container}>
-            <h1 className={styles.title}>Lorem ipsum.</h1>
+        <section className={styles.container} id={'advantages'}>
+            <h1 className={styles.title}>Преимущества Обучения</h1>
             <div className={styles.wrapper}>
                 <div className={styles.left}>
                     <Image src={'/video/boy-lesson.jpg'}
@@ -18,23 +18,23 @@ const ProsComponent = () => {
                 </div>
                 <div className={styles.right}>
                     <MiniCard
-                        title={'Lorem ipsum.'}
+                        title={'Профессиональное обучение'}
                         emoji={'/image/nerd.png'}
-                        text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis?'}
+                        text={'Курсы разработаны опытными профессионалами в области программирования.'}
                     />
                     <MiniCard
-                        title={'Lorem ipsum.'}
+                        title={' Адаптированный подход'}
                         emoji={'/image/nerd.png'}
-                        text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis?'}
+                        text={'Занятия проводятся с учетом особенностей детского восприятия, используют интерактивные методики и практические задания для лучшего усвоения материала.'}
                     />
                     <MiniCard
-                        title={'Lorem ipsum.'}
+                        title={' Развитие критического мышления'}
                         emoji={'/image/nerd.png'}
-                        text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, reiciendis?'}
+                        text={'Дети развивают аналитическое и логическое мышление, учатся решать задачи и разрабатывать собственные проекты.'}
                     />
                 </div>
             </div>
-            <Sticker text={'Lorem ipsum dolor sit amet.'}
+            <Sticker text={'Развитие творческого мышления!'}
                      sticker={'/image/nerd.png'}
                      top={'100%'}
                      right={'1%'}
@@ -45,7 +45,7 @@ const ProsComponent = () => {
                    height={60}
                    className={styles.nature}
             />
-        </div>
+        </section>
     );
 };
 

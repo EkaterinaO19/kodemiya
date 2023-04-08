@@ -18,15 +18,23 @@
   display: flex;
   gap: 1rem;
   color: #383838;
+  cursor: pointer;
 }
 
 .title {
   font-size: 24px;
 }
 
+.contact {
+  color: black;
+
+}
+
 @media (max-width: 480px) {
   .footer{
     height: fit-content;
+    padding: 1rem;
+
   }
   .links {
     display: none;
@@ -37,6 +45,7 @@
 @media (min-width: 481px) and (max-width: 767px) {
   .footer{
     height: fit-content;
+    padding: 1rem;
   }
   .links {
     display: none;
@@ -47,10 +56,12 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .footer{
     height: fit-content;
+    padding: 1rem;
   }
 }
 /* Styles for small laptops and desktops (min-width: 1025px) and (max-width: 1280px) */
 @media (min-width: 1025px) and (max-width: 1280px) {
   .footer{
     height: fit-content;
+    padding: 1rem;
   }}
