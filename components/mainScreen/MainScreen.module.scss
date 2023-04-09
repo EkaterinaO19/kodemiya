@@ -70,6 +70,9 @@
 
 /* Styles for mobile devices (min-width: 481px) and (max-width: 767px) */
 @media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    margin: 1rem;
+  }
   .title{
     font-size: 28px;
   }

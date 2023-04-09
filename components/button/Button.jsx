@@ -6,7 +6,7 @@ const Button = ({children, size, type, onClick}) => {
         <button className={`${styles.button} ${styles[size]}`}
                 type={type} onClick={onClick}
         >
-            <a href="https://t.me/coddemik" target="_blank">
+            <a href="https://t.me/codemiya" target="_blank">
             {children}
             </a>
         </button>
