@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className={styles.navigation}>
             <div className={styles.container}>
-                <h1 className={styles.title}>Кодемия.</h1>
+                <h1 className={styles.title}>Ниндзя Кодеры</h1>
                 <div className={styles.menu}>
                     <NavbarItem link={'#courses'} label={'Курсы'} active/>
                     <NavbarItem link={'#advantages'} label={'Преимущества'}/>

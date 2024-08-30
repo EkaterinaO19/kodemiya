@@ -11,9 +11,6 @@ const QuestionsContainer = () => {
                 <Image src={'/video/hertgirl.jpg'} alt={'Image'}
                        className={styles.girl} height={300} width={300}
                 />
-                <Image src={'/video/boy-white.jpg'} alt={'Image'}
-                       className={styles.boy} height={300} width={300}
-                />
             </div>
             <div className={styles.text}>
                 <h2>Остались Вопросы?</h2>

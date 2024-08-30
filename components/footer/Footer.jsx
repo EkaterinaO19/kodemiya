@@ -7,7 +7,7 @@ import {SlSocialVkontakte} from "react-icons/sl";
 const Footer = () => {
     return (
         <footer className={styles.footer} id={'contacts'}>
-                <h1 className={styles.title}>Кодемия.</h1>
+                <h1 className={styles.title}>Ниндзя Кодеры</h1>
             <div className={styles.links}>
                 <NavbarItem link={'#courses'} label={'Курсы'} active />
                 <NavbarItem link={'#advantages'} label={'Преимущества'}  />
