@@ -7,7 +7,7 @@ const CourseCard = ({main, text, price, image}) => {
         <div className={styles.container}>
             <div className={styles.left}>
                 <h3>{main}</h3>
-                <h5>{price}</h5>
+                <h3>{price}</h3>
                 <p className={styles.text}>
                     {text}
                 </p>

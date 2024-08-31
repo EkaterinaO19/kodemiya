@@ -15,8 +15,8 @@ const MainScreen = () => {
                          left={'3%'}
                 />
                 <div className={styles.center}>
-                    <h1 className={styles.title}>Программирование для детей от 7 лет.</h1>
-                    <span className={styles.title_second}>Индивидуальные онлайн-уроки программирования для детей и подростков от 7 до 17 лет. Занятия проводятся на русском и английском языках.!</span>
+                    <h1 className={styles.title}>Программирование для детей от 7 лет</h1>
+                    <span className={styles.title_second}>Индивидуальные онлайн-уроки программирования для детей и подростков. Занятия проводятся на русском и английском языках.</span>
                     <Button size={'medium'}>Записаться</Button>
                 </div>
                 <Sticker text={'Хочу создавать свои игры'}

@@ -42,6 +42,13 @@ h1 {
   /* margin: 0.67em 0; */
 }
 
+h2 {
+  font-size: 1.3em;
+  font-weight: 400;
+  /* margin: 0.67em 0; */
+}
+
+
 /* Grouping content
    ========================================================================== */
 
@@ -356,6 +363,6 @@ a {
 /* Add any additional styles as needed */
 /* For example, to remove underline and change color */
 a {
-  color: #ffffff;
+  // color: #ffffff;
   text-decoration: none;
 }

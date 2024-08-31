@@ -3,10 +3,11 @@ import styles from './CoursesComponent.module.scss'
 import CourseCard from "@/components/courseCard/CourseCard";
 import Image from "next/image";
 const CoursesComponent = () => {
+
     return (
         <section className={styles.container} id={'courses'}>
             <h1 className={styles.title}>Наши Курсы</h1>
-            <h3>Внимание! Есть возможность выбрать курс на английском языке!</h3>
+            <h3>Внимание! Можно выбрать курс на английском языке!</h3>
             <Image
                 src="/shapes/half.svg"
                 height={50} width={50}
