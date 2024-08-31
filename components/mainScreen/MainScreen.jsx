@@ -16,7 +16,7 @@ const MainScreen = () => {
                 />
                 <div className={styles.center}>
                     <h1 className={styles.title}>Программирование для детей от 7 лет.</h1>
-                    <span>Дети - создатели будущего! Развиваем их потенциал через программирование и веб-разработку в Кодемии!</span>
+                    <span className={styles.title_second}>Индивидуальные онлайн-уроки программирования для детей и подростков от 7 до 17 лет. Занятия проводятся на русском и английском языках.!</span>
                     <Button size={'medium'}>Записаться</Button>
                 </div>
                 <Sticker text={'Хочу создавать свои игры'}
@@ -24,7 +24,7 @@ const MainScreen = () => {
                          top={'10%'}
                          right={'3%'}
                 />
-                <Sticker text={'Обожаю комньютеры!'}
+                <Sticker text={'Обожаю компьютеры!'}
                          top={'25%'}
                          right={'1%'}
                 />
@@ -35,14 +35,6 @@ const MainScreen = () => {
                     alt="Figure"
                     layout="fixed" // specify layout prop for optimal rendering
                     className={styles.sparkle}
-                />
-                <Image
-                    src="/shapes/half.svg"
-                    height={50}
-                    width={50}
-                    alt="Figure"
-                    layout="fixed" // specify layout prop for optimal rendering
-                    className={styles.half}
                 />
             </section>
             <div className={styles.slider}>
