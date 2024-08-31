@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST={"..\\components\\mainScreen\\MainScreen.jsx -> @/components/slider/SliderComponent":{id:9174,files:["static/css/c40742fa8670fe40.css","static/chunks/174.0a95abe056f928b9.js"]}};
